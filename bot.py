@@ -23,12 +23,12 @@ import pickle
 USERINFO = {}  # holds user information
 CAPTCHA_DATA = {}
 # %% ENV VARIABLES
-COIN_SYMBOL = os.environ["COIN_SYMBOL"]
+COIN_SYMBOL = os.environ["BNB"]
 COIN_NAME = os.environ["COIN_NAME"]
 AIRDROP_AMOUNT = os.environ["AIRDROP_AMOUNT"]
 AIRDROP_AMOUNT = "{:,.2f}".format(float(AIRDROP_AMOUNT))
 AIRDROP_DATE = os.environ["AIRDROP_DATE"]
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+BOT_TOKEN = os.environ["2088195770:AAGpG7JSHVMfitzsXDGha3NibxteA50ePrM"]
 AIRDROP_NETWORK = os.environ["AIRDROP_NETWORK"]
 REFERRAL_REWARD = float(os.environ["REFERRAL_REWARD"])
 COIN_PRICE = os.environ["COIN_PRICE"]
